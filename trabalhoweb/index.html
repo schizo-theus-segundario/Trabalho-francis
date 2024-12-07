@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Finanças</title>
+</head>
+<body>
+    <div class="criarFinança">
+        <h1>Criar uma finança</h1>
+
+        <h2>Nome</h2>
+        <input type="text" class="nomeInput" id="nomeInput">
+
+        <h2>Valor</h2>
+        <input type="text" class="valorInput" id="valorInput">
+
+        <h2>Data</h2>
+        <input type="date" class="dataInput" id="dataInput">
+
+        <h2>Categoria</h2>
+        <select class="categoriaInput" id="categoriaInput">
+            <option value="Receita">Receita</option>
+            <option value="Despesa">Despesa</option>
+        </select>
+
+        <button class="criarButton" id="criarButton">Criar</button>
+    </div>
+
+    <h1>LISTAGEM DAS FINANÇAS</h1>
+    <div class="listagemFinanças" id="listagemFinanças">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
